@@ -1,9 +1,13 @@
 <?php
+
+namespace SJBR\StaticInfoTables\Domain\Model;
+
 /***************************************************************
  *  Copyright notice
  *
  *  (c) 2011-2012 Armin Rüdiger Vieweg <info@professorweb.de>
  *  (c) 2013 Stanislas Rolland <typo3(arobas)sjbr.ca>
+ *  (c) 2021 Ephraim Härer <ephraim.haerer@renolit.com>
  *
  *  All rights reserved
  *
@@ -23,7 +27,7 @@
  *
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
-namespace SJBR\StaticInfoTables\Domain\Model;
+
 
 /**
  * The Currency model

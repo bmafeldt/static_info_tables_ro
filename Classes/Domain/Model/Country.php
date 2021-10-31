@@ -1,11 +1,14 @@
 <?php
 
+namespace SJBR\StaticInfoTables\Domain\Model;
+
 /***************************************************************
  *  Copyright notice
  *
  *  (c) 2011-2012 Armin Rüdiger Vieweg <info@professorweb.de>
  *  (c) 2013 Stanislas Rolland <typo3(arobas)sjbr.ca>
  *  (c) 2015 Simon Schmidt <sfs@marketing-factory.de>
+ *  (c) 2021 Ephraim Härer <ephraim.haerer@renolit.com>
  *
  *  All rights reserved
  *
@@ -26,8 +29,6 @@
  *  This copyright notice MUST APPEAR in all copies of the script!
  ***************************************************************/
 
-namespace SJBR\StaticInfoTables\Domain\Model;
-
 /**
  * The Country model
  *
@@ -38,18 +39,21 @@ class Country extends AbstractEntity
 {
     /**
      * The Romanian short name
+     *
      * @var string
      */
     protected $shortNameRo = '';
 
     /**
      * The Romanian official name
+     *
      * @var string
      */
     protected $officialNameRo = '';
 
     /**
      * The Romanian capital name
+     *
      * @var string
      */
     protected $capitalRo = '';
@@ -58,7 +62,6 @@ class Country extends AbstractEntity
      * Sets the Romanian short name.
      *
      * @param string $shortNameRo
-     *
      * @return void
      */
     public function setShortNameRo($shortNameRo)
@@ -80,7 +83,6 @@ class Country extends AbstractEntity
      * Sets the Romanian short name.
      *
      * @param string $officialNameRo
-     *
      * @return void
      */
     public function setOfficialtNameRo($officialNameRo)
@@ -102,7 +104,6 @@ class Country extends AbstractEntity
      * Sets the Romanian short name.
      *
      * @param string $capitalRo
-     *
      * @return void
      */
     public function setCapitalRo($capitalRo)
